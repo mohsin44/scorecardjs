@@ -31,7 +31,7 @@ body {
     background: black;
 }
 
-#guest-block {
+#away-block {
     position: absolute;
     height: 120px;
     width: 170px;
@@ -53,7 +53,7 @@ body {
     font-family: 'DS-Digital', sans-serif;
 }
 
-#guest-points {
+#away-points {
     position: absolute;
     height: 120px;
     width: 170px;
@@ -73,7 +73,7 @@ body {
     top: 271px;
 }
 
-.guest-btns {
+.away-btns {
     position: absolute;
     height: 45px;
     width: 200px;

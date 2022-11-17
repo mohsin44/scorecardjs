@@ -27,30 +27,30 @@ function minusthree(){
     homeEl.textContent =count
 }
 
-let guestEl=document.getElementById('guest-points')
+let awayEl=document.getElementById('away-points')
 let count2=0
 function plusonet(){
     count2 += 1
-    guestEl.textContent =count2
+    awayEl.textContent =count2
 }
 function plustwot(){
    count2 += 2
-    guestEl.textContent =count2
+    awayEl.textContent =count2
 }
 function plusthreet(){
     count2 += 3
-    guestEl.textContent =count2
+    awayEl.textContent =count2
 }
-let minusgEl=document.getElementById('guest-points')
+let minusgEl=document.getElementById('away-points')
 function minusonet(){
     count2 -= 1
-    guestEl.textContent =count2
+    awayEl.textContent =count2
 }
 function minustwot(){
     count2 -= 2
-    guestEl.textContent =count2
+    awayEl.textContent =count2
 }
 function minusthreet(){
     count2 -= 3
-    guestEl.textContent =count2
+    awayEl.textContent =count2
 }
